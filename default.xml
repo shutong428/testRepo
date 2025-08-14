@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!-- 定义远程仓库地址 -->
-    <remote  name="gitlab"
-             fetch="ssh://git@gitlab.in.leap-io.com/sw-dev/" />
+    <remote  name="github"
+             fetch="https://github.com/shutong428/" />
 
     <!-- 默认分支和远程 -->
     <default revision="master"
-             remote="gitlab"
+             remote="github"
              sync-j="4" />
 
     <!-- 第一个项目 -->
-    <project name="leapcli"
-             path="leapcli"
-             revision="ir_raid_refactor" />
+    <project name="test1"
+             path="test1"
+             revision="master" />
 
     <!-- 第二个项目 -->
-    <project name="storelib_cpp"
-             path="storelib_cpp"
-             revision="ir_raid_refactor" />
+    <project name="test2"
+             path="test2"
+             revision="master" />
 </manifest>
