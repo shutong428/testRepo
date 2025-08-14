@@ -12,10 +12,10 @@
     <!-- 第一个项目 -->
     <project name="test1"
              path="test1"
-             revision="b479765138f213cdba41a7e586e2554b2e49d649" />
+             revision="a370c9bb89ead65bd9ae3f2882d206ea05eb8d21" />
 
     <!-- 第二个项目 -->
     <project name="test2"
              path="test2"
-             revision="214c1826d3d805a912bc053f4a31f25ae80dba39" />
+             revision="4410c3a7326a36f75b5f4b5433065fa7636b560b" />
 </manifest>
