@@ -5,17 +5,17 @@
              fetch="https://github.com/shutong428/" />
 
     <!-- 默认分支和远程 -->
-    <default revision="master"
+    <default revision="main"
              remote="github"
              sync-j="4" />
 
     <!-- 第一个项目 -->
     <project name="test1"
              path="test1"
-             revision="master" />
+             revision="main" />
 
     <!-- 第二个项目 -->
     <project name="test2"
              path="test2"
-             revision="master" />
+             revision="main" />
 </manifest>
