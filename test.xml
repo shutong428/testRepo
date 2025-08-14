@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- 定义远程仓库地址 -->
+    <remote  name="github"
+             fetch="https://github.com/shutong428/" />
+
+    <!-- 默认分支和远程 -->
+    <default revision="main"
+             remote="github"
+             sync-j="4" />
+
+    <!-- 第一个项目 -->
+    <project name="test1"
+             path="test1"
+             revision="b479765138f213cdba41a7e586e2554b2e49d649" />
+
+    <!-- 第二个项目 -->
+    <project name="test2"
+             path="test2"
+             revision="214c1826d3d805a912bc053f4a31f25ae80dba39" />
+</manifest>
